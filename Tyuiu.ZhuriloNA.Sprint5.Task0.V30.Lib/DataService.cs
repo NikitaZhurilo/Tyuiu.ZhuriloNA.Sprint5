@@ -5,11 +5,11 @@ namespace Tyuiu.ZhuriloNA.Sprint5.Task0.V30.Lib
     {
         public string SaveToFileTextData(int x)
         {
-            string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask0.txt";
+            string filePath = Path.Combine(Path.GetTempPath(), "OutPutFileTask0.txt");
             double y = (x * x + 1) / (3 * x + 4);
             y = Math.Round(y, 3);
-            File.WriteAllText(path, Convert.ToString(y));
-            return path;
+            File.WriteAllText(filePath, Convert.ToString(y));
+            return filePath;
         }
     }
 }

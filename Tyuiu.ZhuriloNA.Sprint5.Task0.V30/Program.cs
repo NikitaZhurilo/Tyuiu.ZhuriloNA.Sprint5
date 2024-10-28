@@ -6,7 +6,7 @@ namespace Tyuiu.ZhuriloNA.Sprint5.Task0.V30
         static void Main(string[] args)
         {
             int x = 3;
-            DataService ds = new DataService();
+            DataService ds = new DataService(); 
             Console.Title = "Спринт #5 | Выполнил Журило Н. А. | ИБКСб-24-1";
             Console.WriteLine("*******************************************************************************");
             Console.WriteLine("* Спринт #5                                                                   *");
