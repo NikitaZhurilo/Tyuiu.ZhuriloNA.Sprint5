@@ -24,7 +24,8 @@ namespace Tyuiu.ZhuriloNA.Sprint5.Task4.V16
             string path = Path.Combine(Path.GetTempPath(), "InPutDataFileTask4V16.txt");
             Console.WriteLine("* Результат:                                                                  *");
             Console.WriteLine("*******************************************************************************");
-            Console.WriteLine(ds.LoadFromDataFile(path));
+            double res = ds.LoadFromDataFile(path);
+            Console.WriteLine(res);
             Console.ReadKey();
         }
     }
