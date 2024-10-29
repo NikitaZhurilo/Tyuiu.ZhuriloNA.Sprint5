@@ -7,7 +7,7 @@ namespace Tyuiu.ZhuriloNA.Sprint5.Task4.V16.Test
         [TestMethod]
         public void TestMethod1()
         {
-            string path = @"C:\DataSprint5\InPutDataFileTask4V16.txt";
+            string path = @"C:\Users\azhur\AppData\Local\Temp\InPutDataFileTask4V16.txt";
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
             bool wait = true;
