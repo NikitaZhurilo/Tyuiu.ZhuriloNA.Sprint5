@@ -22,6 +22,7 @@ namespace Tyuiu.ZhuriloNA.Sprint5.Task4.V16
             Console.WriteLine("* Исходные данные:                                                            *");
             Console.WriteLine("*******************************************************************************");
             string path = Path.Combine(Path.GetTempPath(), "DataSprint5", "InPutDataFileTask4V16.txt");
+            Console.WriteLine("Данные файла находятся в " + path);
             Console.WriteLine("* Результат:                                                                  *");
             Console.WriteLine("*******************************************************************************");
             double res = ds.LoadFromDataFile(path);
