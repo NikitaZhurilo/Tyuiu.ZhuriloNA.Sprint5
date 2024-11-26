@@ -27,7 +27,7 @@ namespace Tyuiu.ZhuriloNA.Sprint5.Task6.V23
             Console.WriteLine("*******************************************************************************");
             double res = ds.LoadFromDataFile(path);
             Console.WriteLine(res);
-            Console.ReadKey();
+            Console.ReadKey(); 
         }
     }
 }

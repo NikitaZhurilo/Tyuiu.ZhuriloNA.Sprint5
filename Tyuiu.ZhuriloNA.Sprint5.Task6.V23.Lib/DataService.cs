@@ -15,6 +15,6 @@ namespace Tyuiu.ZhuriloNA.Sprint5.Task6.V23.Lib
                 }
             }
             return count;
-        }
+        } 
     }
 }
