@@ -19,14 +19,14 @@ namespace Tyuiu.ZhuriloNA.Sprint5.Task7.V15.Lib
             {
                 if (array[i].Length != 2)
                 {
-                    newarray[i] = array[i];
+                    newarray[i] = array[i] + " ";
                 }
                 else
                 {
-                    continue;
+                    newarray[i] = "";
                 }
             }
-            string result = string.Join(" ", newarray);
+            string result = string.Join("", newarray);
             File.AppendAllText(filePath, result);
             return filePath;
             
