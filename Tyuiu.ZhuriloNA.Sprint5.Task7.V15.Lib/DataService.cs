@@ -22,7 +22,7 @@ namespace Tyuiu.ZhuriloNA.Sprint5.Task7.V15.Lib
                     newarray[i] = array[i];
                 }
             }
-            string result = string.Join(" ", newarray);
+            string result = string.Join("", newarray);
             File.AppendAllText(filePath, result);
             return filePath;
         }
