@@ -22,7 +22,7 @@ namespace Tyuiu.ZhuriloNA.Sprint5.Task7.V15
             Console.WriteLine("*******************************************************************************");
             Console.WriteLine("* Исходные данные:                                                            *");
             Console.WriteLine("*******************************************************************************");
-            string path = Path.Combine(Path.GetTempPath(), "DataSprint5", "InPutDataFileTask6V23.txt");
+            string path = Path.Combine(Path.GetTempPath(), "DataSprint5", "InPutDataFileTask7V15.txt");
             Console.WriteLine("Данные файла находятся в " + path);
             Console.WriteLine("* Результат:                                                                  *");
             Console.WriteLine("*******************************************************************************");
