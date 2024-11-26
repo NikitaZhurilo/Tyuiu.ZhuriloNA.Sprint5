@@ -21,6 +21,10 @@ namespace Tyuiu.ZhuriloNA.Sprint5.Task7.V15.Lib
                 {
                     newarray[i] = array[i];
                 }
+                else
+                {
+                    newarray[i] = "";
+                }
             }
             string result = string.Join(" ", newarray);
             File.AppendAllText(filePath, result);
