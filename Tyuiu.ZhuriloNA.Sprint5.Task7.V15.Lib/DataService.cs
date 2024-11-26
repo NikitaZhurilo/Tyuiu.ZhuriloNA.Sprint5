@@ -5,7 +5,7 @@ namespace Tyuiu.ZhuriloNA.Sprint5.Task7.V15.Lib
     {
         public string LoadDataAndSave(string path)
         {
-            string filePath = Path.Combine(Path.GetTempPath(), "OutPutFileTask7.txt");
+            string filePath = Path.Combine(Path.GetTempPath(), "OutPutFileTask8.txt");
             FileInfo fileInfo = new FileInfo(filePath);
             bool fileExists = fileInfo.Exists;
             if (fileExists)
@@ -23,7 +23,7 @@ namespace Tyuiu.ZhuriloNA.Sprint5.Task7.V15.Lib
                 }
                 else
                 {
-                    newarray[i] = "";
+                    continue;
                 }
             }
             string result = string.Join(" ", newarray);
